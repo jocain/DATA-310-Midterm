@@ -22,7 +22,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 ### My Answer: 96453
 
-```python,  echo = True
+```python,  echo = False
 data = pd.read_csv('/content/drive/MyDrive/WM/Junior/DATA 310/weatherHistory.csv')
 print(np.shape(data))
 ```
