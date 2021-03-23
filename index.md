@@ -1,6 +1,6 @@
 # Data 310 Midterm Project
 ### My imports:
-```python,  echo = True
+```python
 import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer
