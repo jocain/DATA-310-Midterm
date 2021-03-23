@@ -24,7 +24,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 ```python,  echo = True
 data = pd.read_csv('/content/drive/MyDrive/WM/Junior/DATA 310/weatherHistory.csv')
-np.shape(data)
+print(np.shape(data))
 ```
 
 ## 2)	In the weatherHistory.csv data how many features are just nominal variables?
