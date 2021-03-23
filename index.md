@@ -20,8 +20,11 @@ from sklearn.ensemble import RandomForestRegressor
 
 ## 1)	Import the weatherHistory.csv into a data frame. How many observations do we have?
 
-### My Answer: 96453
-### Correct Answer: 96453
+### My Answer
+96453
+
+### Correct Answer
+96453
 
 ```python
 data = pd.read_csv('/content/drive/MyDrive/WM/Junior/DATA 310/weatherHistory.csv')
@@ -30,14 +33,20 @@ print(np.shape(data))
 
 ## 2)	In the weatherHistory.csv data how many features are just nominal variables?
 
-### My Answer: 3. Of the variables listed below in the data set (Formatted Date, Summary, Precip Type,	Temperature, Apparent Temperature, Humidity, Wind Speed, Wind Bearing, Visibility, Loud Cover	Pressure, Daily Summary), only three are nominal (Summary, Precip Type, and Daily Summary). The rest are continuous.
-### Correct Answer: 3
+### My Answer: 
+3; Of the variables listed below in the data set (Formatted Date, Summary, Precip Type,	Temperature, Apparent Temperature, Humidity, Wind Speed, Wind Bearing, Visibility, Loud Cover	Pressure, Daily Summary), only three are nominal (Summary, Precip Type, and Daily Summary). The rest are continuous.
+
+### Correct Answer: 
+3
 
 
 ## 3) If we want to use all the unstandardized observations for 'Temperature (C)' and predict the Humidity, the resulting root mean squared error is (just copy the first 4 decimal places):
 
-### My Answer: 0.1514
-### Correct Answer: 0.1514
+### My Answer
+0.1514
+
+### Correct Answer: 
+0.1514
 
 ### My Code:
 ```python
@@ -55,8 +64,11 @@ This resulted in an RMSE of about 0.15144.
 
 ## 4) If the input feature is the Temperature and the target is the Humidity and we consider 20-fold cross validations with random_state = 2020, the Ridge model with alpha = 0.1 and standardize the input train and the input test data. The average RMSE on the test sets is (provide your answer with the first 6 decimal places):
 
-### My Answer: 0.151438
-### Correct Answer: 0.151438
+### My Answer:
+0.151438
+
+### Correct Answer: 
+0.151438
 
 ### My Code:
 ```python
@@ -86,8 +98,11 @@ This resulted in a mean RMSE of about 0.151438.
 
 ## 5) Suppose we want to use Random Forrest with 100 trees and max_depth=50 to predict the Humidity with the Apparent Temperature and we want to estimate the root mean squared error by using 10-cross validations (random_state=1693) and computing the average of RMSE on the test sets. The result we get is  (provide your answer with the first 6 decimal places):
 
-### My Answer: 0.143508
-### Correct Answer: 0.143508
+### My Answer: 
+0.143508
+
+### Correct Answer: 
+0.143508
 
 ### My Code:
 ```python
@@ -116,8 +131,11 @@ This resulted in a mean RMSE of about 0.143508.
 
 ## 6) Suppose we want use polynomial features of degree 6 and we want to predict the Humidity with the Apparent Temperature and we want to estimate the root mean squared error by using 10-fold cross-validations (random_state=1693) and computing the average of RMSE on the test sets. The result we get is  (provide your answer with the first 5 decimal places):
 
-### My Answer: 0.378765
-### Correct Answer: 0.14346
+### My Answer: 
+0.378765
+
+### Correct Answer: 
+0.14346
 
 ### My Code:
 ```python
@@ -150,8 +168,11 @@ This resulted in a mean RMSE of about 0.378765. However, the correct answer seem
 
 ## 7)  If the input feature is the Temperature and the target is the Humidity and we consider 10-fold cross validations with random_state=1234, the Ridge model with alpha =0.2. Inside the cross-validation loop standardize the input data. The average RMSE on the test sets is (provide your answer with the first 4 decimal places):
 
-### My Answer:  0.1514
-### Correct Answer: 0.151444
+### My Answer:  
+0.1514
+
+### Correct Answer: 
+0.151444
 
 ### My Code:
 ```python
@@ -182,8 +203,11 @@ This resulted in a mean RMSE of about 0.151444.
 
 ## 8)  Suppose we use polynomial features of degree 6 and we want to predict the Temperature by using 'Humidity','Wind Speed (km/h)','Pressure (millibars)','Wind Bearing (degrees)' We want to estimate the root mean squared error by using 10-fold cross-validations (random_state=1234) and computing the average of RMSE on the test sets. The result we get is (provide your answer with the first 4 decimal places):
 
-### My Answer:  2.4736
-### Correct Answer: 6.0234
+### My Answer:  
+2.4736
+
+### Correct Answer:
+6.0234
 
 ### My Code:
 ```python
@@ -217,8 +241,11 @@ This resulted in a mean RMSE of about 2.47368. Again, the correct answer seems t
 
 ## 9)  Suppose we use Random Forest with 100 trees and max_depth=50 and we want to predict the Temperature by using 'Humidity','Wind Speed (km/h)','Pressure (millibars)','Wind Bearing (degrees)' We want to estimate the root mean squared error by using 10-fold cross-validations (random_state=1234) and computing the average of RMSE on the test sets. The result we get is  (provide your answer with the first 4 decimal places):
 
-### My Answer:  5.8297
-### Correct Answer: 5.8323
+### My Answer:  
+5.8297
+
+### Correct Answer:
+5.8323
 
 ### My Code:
 ```python
@@ -248,8 +275,11 @@ This resulted in a mean RMSE of about 5.8297.
 
 ## 9)  Suppose we use Random Forest with 100 trees and max_depth=50 and we want to predict the Temperature by using 'Humidity','Wind Speed (km/h)','Pressure (millibars)','Wind Bearing (degrees)' We want to estimate the root mean squared error by using 10-fold cross-validations (random_state=1234) and computing the average of RMSE on the test sets. The result we get is  (provide your answer with the first 4 decimal places):
 
-### My Answer:  Decreasing.
-### Correct Answer: Decreasing.
+### My Answer:  
+Decreasing.
+
+### Correct Answer: 
+Decreasing.
 
 ### My Code:
 ```python
