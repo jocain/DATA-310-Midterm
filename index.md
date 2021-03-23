@@ -1,6 +1,6 @@
 # Data 310 Midterm Project
 ### My imports:
-```python
+```python,  echo = True
 import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer
@@ -22,7 +22,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 ### My Answer: 96453
 
-```python
+```python,  echo = True
 data = pd.read_csv('/content/drive/MyDrive/WM/Junior/DATA 310/weatherHistory.csv')
 np.shape(data)
 ```
@@ -30,6 +30,6 @@ np.shape(data)
 ## 2)	In the weatherHistory.csv data how many features are just nominal variables?
 
 ### My Answer: 3. Of the variables listed below in the data set, only three are nominal. The rest are continuous.
-```python
+```python,  echo = True
 data.head()
 ```
